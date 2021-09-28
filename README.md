@@ -1,5 +1,5 @@
 # Multi-Blockchain-Python
-![alt text](https://github.com/dtcosta/Multi-Blockchain-Python/blob/main/images/pexels-worldspectrum-844124.jpg)
+![alt text](https://github.com/RichardPatriquin/Multi_Chain_Wallet/blob/main/images/multi_coin.png)
 
 ## Background
 
@@ -64,7 +64,7 @@ Ethereum keys are the same format on any network, so the Ethereum keys should wo
 
 - Your directory tree should look something like this:
 
-![alt text](https://github.com/dtcosta/Multi-Blockchain-Python/blob/main/images/tree.png)
+![alt text](https://github.com/RichardPatriquin/Multi_Chain_Wallet/blob/main/images/directory_tree.png)
 
 ### 2. Setup constants
 
@@ -99,7 +99,7 @@ Ethereum keys are the same format on any network, so the Ethereum keys should wo
 
 - When done properly, the final object should look something like this (there are only 3 children each in this image):
 
-![alt text](https://github.com/dtcosta/Multi-Blockchain-Python/blob/main/images/btc-test.png)
+![alt text](https://github.com/RichardPatriquin/Multi_Chain_Wallet/blob/main/images/btc_test.png)
 
 - You should now be able to select child accounts (and thus, private keys) by accessing items in the `coins` dictionary like so: `coins[COINTYPE][INDEX]['privkey']`.
 
@@ -174,7 +174,7 @@ Ethereum keys are the same format on any network, so the Ethereum keys should wo
 
     - Screenshot the confirmation of the transaction like so:
 
-     ![alt text](https://github.com/dtcosta/Multi-Blockchain-Python/blob/main/images/btc_test.png)
+     ![alt text](https://github.com/RichardPatriquin/Multi_Chain_Wallet/blob/main/images/Bitcoin_Explore.png)
 
   - **Local PoA Ethereum transaction**
 
@@ -199,7 +199,7 @@ Ethereum keys are the same format on any network, so the Ethereum keys should wo
     - Send a transaction from the pre-funded address within the wallet to another, then copy the `txid` into
       MyCrypto's TX Status, and screenshot the successful transaction like so:
 
-      ![alt text](https://github.com/dtcosta/Multi-Blockchain-Python/blob/main/images/eth_trans.png)
+     
     
     
 #### Congratulations on creating a powerful wallet that you can expand to hundreds of coins!
